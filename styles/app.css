@@ -1,12 +1,14 @@
 
 h1{
- color:blue; 
+
  font-family: 'Playfair Display', serif;
  font-weight: bold;
 }
-i{
-    color:blueviolet;
-}
+
 p{
     font-family: 'Poppins', sans-serif;  
+}
+.hero{
+background-color:#421B92;
+text-align: center;
 }
