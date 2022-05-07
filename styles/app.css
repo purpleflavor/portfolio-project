@@ -17,10 +17,14 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 96px;
 }
-
+h2{
+    font-size: 64px;
+}
 p{
     font-family:var(--default-font-family);
     font-weight: normal;  
+    font-size:16px;
+    line-height:30px;
 }
 .hero{
     background-color:var(--main-color);
@@ -47,4 +51,33 @@ p{
     color:white;
     font-size: 18px;
     padding:15px 30px;
+}
+.btn-branding-projects{
+    font-size: 18px;
+    padding:7px 15px;
+    line-height: 27px; 
+    border-radius: 4px;
+    color:var(--branding-color);
+    border: 1px solid var(--branding-color);
+}
+
+
+.project-description{
+    padding:60px 30px ;
+}
+@media(max-width:900px){
+    .project-description{
+        padding:0;
+        text-align: center;
+    }
+    h1{
+        font-size:48px;
+        line-height:1;
+    }
+    h2{
+        font-size: 36px;
+    }
+    .hero{
+       padding: 80px 20px;
+    }
 }
