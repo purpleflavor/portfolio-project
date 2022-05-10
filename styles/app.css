@@ -44,20 +44,21 @@ p{
     font-size: 24px;
     color:#272142;
 }
-.about{
+.content{
     margin:120px;
     padding:200px 20px;
    
 }
-.about h1{
+.content h1{
     font-size:48px;
 }
 
-.about h2{
+.content h2{
     font-size: 36px;
 }
-.about img{
+.content img{
     border-radius: 30px;
+    border-color: var(--branding-color);
 }
 .btn-branding{
     background-color: var(--branding-color);
@@ -96,16 +97,16 @@ p{
     .hero{
        padding: 80px 20px;
     }
-   .about{
+   .content{
        text-align:center;
        margin:60px;
        padding: 80px 20px;
        line-height: 56px;
    }
-   .about h1{
+   .content h1{
        font-size:36px;
    }
-   .about h2{
+   .content h2{
        font-size: 24px;
    }
 }
