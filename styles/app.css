@@ -44,6 +44,21 @@ p{
     font-size: 24px;
     color:#272142;
 }
+.about{
+    margin:120px;
+    padding:200px 20px;
+   
+}
+.about h1{
+    font-size:48px;
+}
+
+.about h2{
+    font-size: 36px;
+}
+.about img{
+    border-radius: 30px;
+}
 .btn-branding{
     background-color: var(--branding-color);
     border: 1px solid #a27ac9;
@@ -60,6 +75,7 @@ p{
     color:var(--branding-color);
     border: 1px solid var(--branding-color);
 }
+
 
 
 .project-description{
@@ -80,4 +96,16 @@ p{
     .hero{
        padding: 80px 20px;
     }
+   .about{
+       text-align:center;
+       margin:60px;
+       padding: 80px 20px;
+       line-height: 56px;
+   }
+   .about h1{
+       font-size:36px;
+   }
+   .about h2{
+       font-size: 24px;
+   }
 }
