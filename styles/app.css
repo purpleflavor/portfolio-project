@@ -31,7 +31,7 @@ p{
     line-height:30px;
 }
 nav{
-    padding:15px 0;
+    padding:10px 0;
 }
 li a{
     text-decoration: none;
@@ -42,11 +42,17 @@ nav li a:hover,nav li.active a{
     color: var(--branding-color);
     transition: 0.5em;
 }
+.logo{
+    max-width:70px;
+    border-radius: 50px;
+   border:dotted var(--main-color);
+   margin:0;
+}
 
 .hero{
     background-color:var(--main-color);
     text-align: center;
-    padding:200px 20px;
+    padding:100px 20px;
 }
 
 .hero p{
@@ -61,9 +67,12 @@ nav li a:hover,nav li.active a{
     font-size: 24px;
     color:#272142;
 }
+.contact-touch{
+    font-size:48px;
+}
 .content{
-    margin:120px;
-    padding:200px 20px;
+    margin:50px 0;
+    padding:40px 20px;
    
 }
 .content h1{
@@ -143,6 +152,10 @@ footer .contact-box{
     }
     h2{
         font-size: 36px;
+    }
+    .logo{
+        max-width:50px;
+        border:dotted black;
     }
     .hero{
        padding: 80px 20px;
